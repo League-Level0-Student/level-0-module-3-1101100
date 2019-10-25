@@ -1,11 +1,21 @@
+int a = 250;
+int b = 750;
 void setup(){
  size(1000,500); 
 }
 
 void draw(){
-  
- rings(250, 250); 
- rings(750, 250);
+  if (a <= 1000 && b >= 0){
+  a++;
+  b--;
+  }
+  else if (a == 1000 && b == 0){
+    a--;
+    b++;
+  }
+  background(255,255,255);
+ rings(a, 250); 
+ rings(b, 250);
 } 
 
 
