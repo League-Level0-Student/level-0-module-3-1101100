@@ -14,7 +14,7 @@ public class CrazyCatLady {
 		// 2. Convert their answer into an int
 		int feline = Integer.parseInt(cat);
 		// 3. If they have 3 or more cats, tell them they are a crazy cat lady
-		if (feline > 3) {
+		if (feline >= 3) {
 			
 			JOptionPane.showMessageDialog(null, "you are a crazy cat lady");
 			
